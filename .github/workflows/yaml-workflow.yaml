@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Write Badge
+        uses: action-badges/core@0.1.1
         with:
           file-name: yaml-example.svg
           github-token: "${{ secrets.GITHUB_TOKEN }}"
