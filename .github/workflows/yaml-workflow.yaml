@@ -1,0 +1,20 @@
+name: Yaml Workflow Example
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Write Badge
+        with:
+          file-name: yaml-example.svg
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          badge-branch: badges
+          label: example
+          message: yaml
+          message-color: blue
