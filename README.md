@@ -36,6 +36,22 @@
   </tr>
   <tr>
     <td>
+      <img alt="Composite Action" src="https://raw.githubusercontent.com/action-badges/examples/badges/.badges/main/composite-example.svg" />
+    </td>
+    <td>
+      Composite action example<br />
+      <ul>
+        <li>
+          <a href="https://github.com/action-badges/examples/blob/main/.github/workflows/composite-action.yml">
+          workflow
+          </a>
+        </li>
+        <li><a href="https://github.com/action-badges/examples/tree/main/.github/actions/example-composite-action">action</a></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <img alt="Python Workflow" src="https://raw.githubusercontent.com/action-badges/examples/badges/.badges/main/python-example.svg" />
     </td>
     <td>
