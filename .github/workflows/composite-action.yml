@@ -1,4 +1,4 @@
-name: Generate Badges with Composite Action
+name: Composite Action Example
 on:
   push:
     branches:
