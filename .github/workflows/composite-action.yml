@@ -1,0 +1,17 @@
+name: Generate Badges with Composite Action
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Write Badge
+        uses: ./.github/actions/example-composite-action
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"

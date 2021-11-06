@@ -1,0 +1,18 @@
+name: 'Example Composite Action'
+description: 'Example Composite Action'
+inputs:
+  github-token:
+    description: 'GITHUB_TOKEN secret'
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Write Badge
+      uses: action-badges/core@0.2.1
+      with:
+        file-name: composite-example.svg
+        github-token: "${{ inputs.github-token }}"
+        badge-branch: badges
+        label: example
+        message: composite
+        message-color: blue
