@@ -1,6 +1,6 @@
 "use strict";
 
-const { BaseAction, invoke } = require("@action-badges/core");
+import { BaseAction, invoke } from "@action-badges/core";
 
 class ExampleJsAction extends BaseAction {
   get label() {
