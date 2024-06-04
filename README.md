@@ -1,4 +1,4 @@
-# action-badges  examples
+# serverless action-badges  examples
 
 [Action badges](https://github.com/action-badges/core) allows you to create custom badges using github actions and host them in your own github repo. This repo hosts examples showing how to generate them using a number of different methods.
 
